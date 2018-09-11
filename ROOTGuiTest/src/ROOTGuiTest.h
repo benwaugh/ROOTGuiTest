@@ -1,9 +1,8 @@
 #include <TQObject.h>
 #include <RQ_OBJECT.h>
 
-class TGWindow;
-class TGMainFrame;
-class TRootEmbeddedCanvas;
+#include <TGFrame.h>
+#include <TRootEmbeddedCanvas.h>
 
 class MyMainFrame {
     RQ_OBJECT("MyMainFrame")
